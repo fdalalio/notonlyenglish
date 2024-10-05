@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Professor de Inglês Online - Aulas personalizadas e material exclusivo.">
+    <title>Professor de Inglês Online</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 900px;
+        }
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .testimonial {
+            border: 1px solid #000000;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #000000;
+        }
+        input[type="submit"] {
+            background-color: #000000;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Professor de Inglês Online</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#material">Sobre o Material</a>
+        <a href="#classes">Sobre as Aulas</a>
+        <a href="#testimonials">Depoimentos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou professor de inglês com experiência em aulas online personalizadas, focando nas necessidades individuais de cada aluno. Minhas aulas são dinâmicas e interativas, com o objetivo de proporcionar uma aprendizagem envolvente e eficaz.</p>
+    </section>
+
+    <section id="material">
+        <h2>Sobre o Material</h2>
+        <p>Utilizo materiais exclusivos e adaptados ao nível e objetivos de cada aluno. Todo o conteúdo é pensado para ajudar os alunos a se comunicarem de forma prática e natural em inglês.</p>
+    </section>
+
+    <section id="classes">
+        <h2>Sobre as Aulas</h2>
+        <p>Ofereço aulas de inglês para todos os níveis, desde o básico até o avançado. As aulas são totalmente personalizadas, focando em conversação, gramática, vocabulário e preparação para exames de proficiência.</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Depoimentos de Alunos</h2>
+        <div class="testimonial">
+            <p>"As aulas são incríveis! O professor adapta o conteúdo às minhas necessidades e sempre torna o aprendizado interessante." – Aluno A</p>
+        </div>
+        <div class="testimonial">
+            <p>"Aprendi muito em pouco tempo. As aulas são divertidas e muito proveitosas." – Aluna B</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/seu-email@example.com" method="POST">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu email" required>
+            <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Siga-me nas redes sociais:</p>
+        <p><a href="https://www.instagram.com/seuusuario" target="_blank" style="color: #ffffff;">Instagram</a> | <a href="https://www.linkedin.com/in/seuusuario" target="_blank" style="color: #ffffff;">LinkedIn</a></p>
+    </footer>
+
+</body>
+</html>
